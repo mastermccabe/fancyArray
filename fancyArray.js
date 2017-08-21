@@ -1,6 +1,6 @@
 function fancyArray(sText, isReversed) {
-  sText = sText || '-->';
-
+  sText = sText || '-->'; //if empty default to ""-->""
+  isRevered = isReversed || 'false'; //if empty, default to not reversed
 
   var arr = ["James", "Jill", "Jane", "Jack"];
   if (isReversed == 'false') {
